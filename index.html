@@ -1,16 +1,30 @@
 <!doctype html>
 <html>
 <head>
-  <title>valen</title>
+  <title>e621</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
-<body lang="en">
+<body lang="en" data-th-main="hexagon" data-th-extra="hexagon" data-th-nav="top" style="background-image: url(&quot;https://valen.dog/valenfrontpage.png&quot;); background-color: rgb(1, 46, 86);">
+
   <div id="page">
     <style type="text/css">
   body,div,h1,h2,h3,h4,h5,h6,p,ul,li,dd,dt {
     font-family:verdana,sans-serif;
     margin:0;
     padding:0;
+    color: lightblue;
   }
+  .blur {
+width:100%;
+height:100%;
+background-size:cover;
+-webkit-filter: blur(4px);
+-moz-filter: blur(4px);
+-ms-filter: blur(4px);
+-o-filter: blur(4px);
+filter: blur(4px);
+}
 
   body {
     background-color: #012e56;
@@ -22,9 +36,16 @@
   #page {
     background: none !important;
   }
+  #links:hover {
+  color:grey;
+}
 
   #links > a {
     padding: 0.25rem 0.25rem;
+    color: lightblue;
+    text-decoration: none;
+   
+}
   }
   #links {
     margin-bottom: 0.25rem;
@@ -61,38 +82,43 @@
   }
 </style>
 
+<div id="c-static">
+  <div id="a-home">
+    <script nonce="mEecNOpspE5LvujlMZF6Yw==">
+//<![CDATA[
+      var mascots = [["https://valen.dog/valenfrontpage.png","#012e56"]];
 
+//]]>
+</script>
     <div id="searchbox" class='mascotbox'>
       <div id="static-index">
-        <h1 style="font-size: 4em;"><a href="/">valen</a></h1>
+        <h1 style="font-size: 4em;"><a>Valen</a></h1>
         <div id="links">
-          <a title="Funny text 1" href="https://valen.dog/">Funny 1</a>
-          <a title="Funny text 2" href="https://valen.dog/">Funny 2</a>
-          <a title="Funny text 3" href="https://valen.dog/">Funny 3</a>
-          <a title="Funny text 4" href="https://valen.dog/">Funny 4</a>
-          <a title="Funny text 5" href="https://valen.dog/">Funny 5</a>
-          <a title="Funny text 6" href="https://valen.dog/">Funny 6</a>
-        </div>
+            <a title="Discord" href="https://discord.gg/W7eAztb">Discord</a>
+            <a title="Last.fm" href="https://last.fm/users/t4p">Last.fm</a>
+            <a title="Twitter" href="https://twitter.com/thotknotter">Twitter</a>
+            <a title="Spotify" href="https://open.spotify.com/user/barred_galaxy?si=bee3ccd5df4a4607">Spotify</a>
+            <a title="Itaku" href="https://itaku.ee/profile/valen">Itaku</a>
+            <a title="Soundcloud" href="https://soundcloud.com/v4len">Soundcloud</a>
+          </div>
         <div>
           <form action="/posts" accept-charset="UTF-8" method="get">
-            <div>
-              <input type="text" name="tags" id="tags" value="" size="30" autofocus="autofocus" data-autocomplete="tag-query" /><br>
-              <input type="submit" value="Search">
-              <input type="button" value="Change Mascot" id="change-mascot">
+            <div class="blur">
             </div>
 </form>        </div>
       </div>
       <div id='mascot_artist'></div>
     </div>
 
-    <div id='searchbox2' class='mascotbox'>
-        <img src="/images/2.png" />
-        <img src="/images/4.png" />
-        <img src="/images/6.png" />
-        <img src="/images/2.png" />
-        <img src="/images/1.png" />
-        <img src="/images/5.png" />
-        <img src="/images/0.png" />
+
+    <div id='searchbox3' class='mascotbox'>
+      <p>
+        Serving 69,420,420 packs<br/>
+        <a title="My Balls">My Balls</a>
+        |
+        <a title="Are Very">Are Very</a> |
+        <a title="Sweaty">Sweaty</a>
+      </p>
     </div>
 
   </div>
